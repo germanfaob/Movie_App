@@ -1,0 +1,24 @@
+.movie-card{
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: 0.5s;
+    color: burlywood;
+}
+
+.movie-card:hover{
+    opacity: .5;
+    transform: translateY(-30px);
+    transition: 0.5s;
+}
+
+.movie-card-img{
+    border-radius: 10px;
+}
+
+@media (max-width: 560px){
+    .movie-card-img{
+        width: 90%;
+        height: auto;
+    }
+}
