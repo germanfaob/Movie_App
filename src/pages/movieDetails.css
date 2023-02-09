@@ -29,3 +29,31 @@
 .movie-details{
     font-size: 1.5rem;
 }
+
+.btn-container{
+    position: relative;
+    left: -1%;
+    margin-top: 15px;
+    height: 35px;
+    width: 35px;
+}
+
+.btn-container button{
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    color: #242424;
+    background-color: burlywood;
+    cursor: pointer;
+    
+}
+
+.btn-container button:hover{
+    background-color: burlywood;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.btn-container a{
+    text-decoration: none;
+}

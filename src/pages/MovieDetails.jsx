@@ -1,5 +1,5 @@
 import { get } from "../data/httpClient"
-import { useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import { useState, useEffect } from "react"
 import { getMovieImg } from "../utils/getMovieImg"
 import "../pages/movieDetails.css"
@@ -22,6 +22,9 @@ export function MovieDetails(){
 
     return (
         <div className="details-container">
+            <div className="btn-container">
+            <Link to="/"><button>◀</button></Link>
+            </div>
             <img src={imageUrl}
             alt={movie.title}
             className="col movie-img"
